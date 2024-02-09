@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // db
-import { translations } from '../db/translations';
+import { translations } from '@db/translations';
 
 export const TranslateContext = React.createContext();
 

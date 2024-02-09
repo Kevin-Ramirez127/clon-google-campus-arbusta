@@ -1,10 +1,10 @@
 // Libraries
 import React from 'react';
 // Context
-import { TranslateContext } from '../../context/TranslateContext';
+import { TranslateContext } from '@context/TranslateContext';
 // Components
-import Button from '../Button';
-import AppsModal from '../AppsModal';
+import Button from '@components/Button';
+import AppsModal from '@components/AppsModal';
 
 function Header() {
 	const { t } = React.useContext(TranslateContext);

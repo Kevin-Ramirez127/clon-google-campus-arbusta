@@ -1,10 +1,10 @@
 // Libraries
 import React from 'react';
 // Components
-import Header from '../../components/Header';
-import SearchBar from '../../components/SearchBar';
+import Header from '@components/Header';
+import SearchBar from '@components/SearchBar';
 // Context
-import { TranslateContext } from '../../context/TranslateContext';
+import { TranslateContext } from '@context/TranslateContext';
 
 function Google() {
 	const { t, setLanguage, actLang, handleLanguage } = React.useContext(TranslateContext);

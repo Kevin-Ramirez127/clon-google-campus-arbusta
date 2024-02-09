@@ -1,7 +1,7 @@
 // Pages
-import Google from './Pages/Google';
+import Google from '@pages/Google';
 // Context
-import { TranslateProvider } from './context/TranslateContext';
+import { TranslateProvider } from '@context/TranslateContext';
 // Styles
 import './App.css';
 

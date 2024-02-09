@@ -1,11 +1,11 @@
 // Libraries
 import React from 'react';
 // Context
-import { TranslateContext } from '../../context/TranslateContext';
+import { TranslateContext } from '@context/TranslateContext';
 // Styles
 import './style.css';
 // Components
-import SearchButton from '../SearchButton';
+import SearchButton from '@components/SearchButton';
 
 function SearchBar() {
 	const { t } = React.useContext(TranslateContext);

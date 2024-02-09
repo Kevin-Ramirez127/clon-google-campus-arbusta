@@ -2,13 +2,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // db
-import { googleApps } from '../../db/googleApps.js';
+import { googleApps } from '@db/googleApps.js';
 // Styles
 import './style.css';
 // Context
-import { TranslateContext } from '../../context/TranslateContext.jsx';
+import { TranslateContext } from '@context/TranslateContext.jsx';
 // Components
-import Button from '../Button';
+import Button from '@components/Button';
 
 function AppsModal() {
 	const { t } = React.useContext(TranslateContext);
